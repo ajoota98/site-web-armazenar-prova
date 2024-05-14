@@ -30,13 +30,14 @@ pip install -r requirements.txt
 -----------------------
 Configuração do Banco de Dados:
 
-Nenhuma configuração adicional do banco de dados é necessária, pois a aplicação usa o SQLite, que é um banco de dados embutido e não requer instalação separada.
-Execução da Aplicação:
-
-Após instalar todas as dependências, você pode iniciar a aplicação.
+Caso você nao tenha, instale manualmente o Flask, Execute o seguinte comando:
+pip install flask
 
 
------------------------
+Caso ocorra algum problema, você precisa instalar o Flask-SQLAlchemy. Aqui está o comando para instalar o Flask-SQLAlchemy:
+pip install flask-sqlalchemy
+
+
 No diretório da aplicação, execute o seguinte comando para iniciar o servidor Flask:
 python app.py
 
