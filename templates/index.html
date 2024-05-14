@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Items</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+     <link rel="icon" type="image/x-icon" href="static/img/ico.png">
+    <title>Gerenciador de Itens</title>
 </head>
+
 <body>
-    <h1>Items</h1>
-    <ul>
-        {% for item in items %}
-            <li>{{ item.name }} <a href="{{ url_for('edit', id=item.id) }}">Editar</a> <a href="{{ url_for('delete', id=item.id) }}">Deletar</a></li>
-        {% endfor %}
-    </ul>
+    <div id="conteudo">
+        <h1 class="title1">Gerenciador de Items</h1>
+        <p class="paragrafo1 opacidade">Utilize a caixa de texto abaixo para inserir o conteúdo desejado e adicionar ao banco de dados, você pode alterar ou excluir clicando nos botoes correspondentes</p>
     <form action="/add" method="post">
         <input type="text" name="name" placeholder="Nome do item">
         <button type="submit">Adicionar</button>
     </form>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.name }}<br><br> <a href="{{ url_for('edit', id=item.id) }}" class="mod-btn">Editar</a> <a href="{{ url_for('delete', id=item.id) }}" class="mod-btn">Deletar</a></li>
+        {% endfor %}
+    </ul>
+</div>
 </body>
 </html>

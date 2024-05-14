@@ -1,0 +1,87 @@
+
+body{
+    background-image: url('img/giphy.gif');
+    background-size: 100%;
+    font-family: "Gill Sans Extrabold", sans-serif;
+   
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    left: 37%
+}
+
+/* Estilos para botões */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    left: 37%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+h1 {
+    text-align: center;
+       color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.paragrafo1 {
+    text-align: center;
+}
+
+ul {
+    position: relative;
+    left: 33%;
+    width: 30%;
+}
+
+li {
+    border: black;
+    height: 70px;
+    border-style: solid;
+    padding: 2%;
+    list-style-type: none;
+    border-width: 0px;
+    border-left: 6px solid rgb(2, 107, 255);
+    background-color: rgb(4, 233, 250);
+    border-bottom: 0.2px solid rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.mod-btn {
+    text-decoration: none;
+    border: none;
+    padding: 0.8%;
+    background-color: purple;
+    color: white;
+}
+
+.opacidade {
+    opacity: 1 !important;
+}
+
+p {
+    color: white;
+    opacity: 1;
+}
+
+#conteudo {
+    position: relative;
+    top: 300px;
+}

@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/x-icon" href="static/img/ico.png">
     <title>Editar Item</title>
 </head>
 <body>
+    <div id="conteudo">
     <h1>Editar Item</h1>
     <form action="" method="post">
         <input type="text" name="name" value="{{ item.name }}">
         <button type="submit">Salvar</button>
     </form>
+</div>
 </body>
 </html>
