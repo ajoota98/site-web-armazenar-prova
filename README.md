@@ -9,32 +9,20 @@ Faça o download e instale a versão mais recente do Python no site oficial: Pyt
 
 -----------------------
 Clonagem do Repositório:
-Abra o terminal ou prompt de comando e navegue até o diretório onde você deseja clonar o repositório.
+- Abra o terminal ou prompt de comando dentro da pasta que você deseja, ou navegue até o diretório onde você deseja clonar o repositório.
+- Execute o seguinte comando para clonar o repositório da aplicação:
 
-Execute o seguinte comando para clonar o repositório da aplicação:
-
-git clone **link do repositório**
-
-
------------------------
-Instalação de Dependências:
-
-Navegue até o diretório recém-clonado da aplicação.
-
-Verifique se você está no diretório correto onde o arquivo requirements.txt está presente.
-
-Execute o seguinte comando para instalar as dependências do projeto:
-pip install -r requirements.txt
+"git clone https://github.com/ajoota98/site-web-armazenar-prova"
 
 
 -----------------------
 Configuração do Banco de Dados:
 
-Caso você nao tenha, instale manualmente o Flask, Execute o seguinte comando:
+Caso ocorra algum problema, instale manualmente o Flask, Execute o seguinte comando no mesmo prompt:
 pip install flask
 
 
-Caso ocorra algum problema, você precisa instalar o Flask-SQLAlchemy. Aqui está o comando para instalar o Flask-SQLAlchemy:
+Caso ocorra algum outro problema, você precisa instalar o Flask-SQLAlchemy. Aqui está o comando para instalar o Flask-SQLAlchemy:
 pip install flask-sqlalchemy
 
 
