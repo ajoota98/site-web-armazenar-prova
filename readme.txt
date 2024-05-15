@@ -7,34 +7,23 @@ Faça o download e instale a versão mais recente do Python no site oficial: Pyt
 
 -----------------------
 Clonagem do Repositório:
-Abra o terminal ou prompt de comando e navegue até o diretório onde você deseja clonar o repositório.
+- Abra o terminal ou prompt de comando dentro da pasta que você deseja, ou navegue até o diretório onde você deseja clonar o repositório.
+- Execute o seguinte comando para clonar o repositório da aplicação:
 
-Execute o seguinte comando para clonar o repositório da aplicação:
-
-git clone **link do repositório**
-
-
------------------------
-Instalação de Dependências:
-
-Navegue até o diretório recém-clonado da aplicação.
-
-Verifique se você está no diretório correto onde o arquivo requirements.txt está presente.
-
-Execute o seguinte comando para instalar as dependências do projeto:
-pip install -r requirements.txt
+"git clone https://github.com/ajoota98/site-web-armazenar-prova"
 
 
 -----------------------
 Configuração do Banco de Dados:
 
-Nenhuma configuração adicional do banco de dados é necessária, pois a aplicação usa o SQLite, que é um banco de dados embutido e não requer instalação separada.
-Execução da Aplicação:
-
-Após instalar todas as dependências, você pode iniciar a aplicação.
+Caso ocorra algum problema, instale manualmente o Flask, Execute o seguinte comando no mesmo prompt:
+pip install flask
 
 
------------------------
+Caso ocorra algum outro problema, você precisa instalar o Flask-SQLAlchemy. Aqui está o comando para instalar o Flask-SQLAlchemy:
+pip install flask-sqlalchemy
+
+
 No diretório da aplicação, execute o seguinte comando para iniciar o servidor Flask:
 python app.py
 
@@ -81,6 +70,3 @@ Escolhi o SQLite como banco de dados para esta aplicação devido à sua simplic
 Optei por ferramentas e métodos que são simples e fáceis de usar, como Flask, Flask-SQLAlchemy e SQLite. Isso permite um desenvolvimento rápido e eficiente da aplicação.
 
 Ao seguir o padrão MVC e usar o ORM SQLAlchemy, o código da aplicação fica organizado, legível e fácil de manter.
-
-
-
