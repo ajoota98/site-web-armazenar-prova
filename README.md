@@ -72,3 +72,10 @@ Escolhi o SQLite como banco de dados para esta aplicação devido à sua simplic
 Optei por ferramentas e métodos que são simples e fáceis de usar, como Flask, Flask-SQLAlchemy e SQLite. Isso permite um desenvolvimento rápido e eficiente da aplicação.
 
 Ao seguir o padrão MVC e usar o ORM SQLAlchemy, o código da aplicação fica organizado, legível e fácil de manter.
+
+
+
+
+Screenshot da tela inicial do projeto:
+![msedge_YQ1SWBidN4](https://github.com/ajoota98/site-web-armazenar-prova/assets/38229252/e544e4bd-572f-4f9e-ab8e-25ff289b2265)
+
